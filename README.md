@@ -1,8 +1,7 @@
 # TinyTableJS
 
 ```js
-const table = TinyTable("table")
-                .addHeader("")
+const table = TinyTable("tableId")
                 .addHeader("Title")
                 .addHeader("Completed")
                 .build()
